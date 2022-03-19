@@ -1,0 +1,9 @@
+{
+  "category.sound_in_the_distance.mute_sound": "Mute Sound",
+  "key.sound_in_the_distance.mute_master_sound": "Mute Master Sound",
+  "key.sound_in_the_distance.mute_master_sound.pressed.mute": "Muted Master Sound",
+  "key.sound_in_the_distance.mute_master_sound.pressed.unmute": "Unmuted Master Sound",
+  "key.sound_in_the_distance.mute_music": "Mute Music",
+  "key.sound_in_the_distance.mute_music.pressed.mute": "Muted Music",
+  "key.sound_in_the_distance.mute_music.pressed.unmute": "Unmuted Music"
+}

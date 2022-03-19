@@ -1,0 +1,9 @@
+{
+  "category.sound_in_the_distance.mute_sound": "サウンドのミュート",
+  "key.sound_in_the_distance.mute_master_sound": "マスターサウンドのミュート",
+  "key.sound_in_the_distance.mute_master_sound.pressed.mute": "マスターサウンドをミュートしました",
+  "key.sound_in_the_distance.mute_master_sound.pressed.unmute": "マスターサウンドのミュートを解除しました",
+  "key.sound_in_the_distance.mute_music": "ミュージックのミュート",
+  "key.sound_in_the_distance.mute_music.pressed.mute": "ミュージックをミュートしました",
+  "key.sound_in_the_distance.mute_music.pressed.unmute": "ミュージックのミュートを解除しました"
+}
