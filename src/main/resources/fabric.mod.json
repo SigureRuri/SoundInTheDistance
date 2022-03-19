@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "sound_in_the_distance",
+  "version": "${version}",
+  "name": "SoundInTheDistance",
+  "description": "",
+  "authors": [
+    "SigureRuri"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/SoundInTheDistance/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.github.sigureruri.soundinthedistance.client.SoundInTheDistanceClient"
+    ],
+    "main": [
+      "com.github.sigureruri.soundinthedistance.SoundInTheDistance"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "fabric": "*",
+    "minecraft": "1.18.2"
+  }
+}
