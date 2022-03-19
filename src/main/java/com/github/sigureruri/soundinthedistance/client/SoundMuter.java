@@ -10,7 +10,7 @@ public class SoundMuter {
     private final SoundCategory category;
 
     // toggleMuteが最初に呼ばれたときにmute状態であれば1.0fが使われ、そうでなければその時の値で上書きされるため、初期値は1.0でよい
-    private float masterSoundVolumeBeforeMute = 1.0f;
+    private float volumeBeforeMute = 1.0f;
 
     public SoundMuter(MinecraftClient client, SoundCategory category) {
         this.client = client;
@@ -21,10 +21,10 @@ public class SoundMuter {
         float volume = client.options.getSoundVolume(category);
 
         if (isMuting()) {
-            client.options.setSoundVolume(category, masterSoundVolumeBeforeMute);
+            client.options.setSoundVolume(category, volumeBeforeMute);
         } else {
             client.options.setSoundVolume(category, 0.0f);
-            masterSoundVolumeBeforeMute = volume;
+            volumeBeforeMute = volume;
         }
     }
 
